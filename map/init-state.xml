@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-03-23 15:11:18 by Eclipse SUMO GUI Version 1.15.0
+<!-- generated on 2023-02-21 13:14:37 by Eclipse SUMO sumo Version 1.15.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/home/gossq/git-projects/scenic-sumo-gui/map/allnetworksedit.net.xml"/>
+        <net-file value="D:/git-projects/scenic-sumo-gui/map/3way.net.xml"/>
     </input>
 
     <time>
