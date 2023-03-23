@@ -2,6 +2,11 @@ import PySimpleGUI as sg
 import os
 import pandas as pd
 from datetime import datetime
+import logging
+import traci
+
+LOG_FILENAME = "log.txt"
+logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
 
 import warnings
 warnings.simplefilter("ignore", UserWarning)
@@ -26,7 +31,7 @@ class ScenicSUMOGui:
 
             # GUI Options
             "--delay" : 50,
-            # "--start" : "",
+            "--start" : "",
             "--quit-on-end" : "",
 
             # Logging
@@ -73,7 +78,15 @@ class ScenicSUMOGui:
                     self.window["run"].update(disabled=True)
             elif event == "run":
                 self.window["run"].update(disabled=True)
-                self.run()
+                try:
+                    self.run()
+                except KeyboardInterrupt:
+                    raise KeyboardInterrupt
+                except:
+                    logging.exception("Exception caught at runtime...")
+                    traci.close()
+                    print("Run terminated, see log.txt for details!")
+                    pass
                 self.window["run"].update(disabled=False)
                 pass
                 
@@ -81,7 +94,7 @@ class ScenicSUMOGui:
         return
     
     def run(self):
-        
+        # print(self.config)
 
         map_fn = self.values["map-fn"]
         scene_fn = self.values["scene-fn"]

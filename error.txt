@@ -1,0 +1,2 @@
+Warning: Vehicle 'npc1' performs emergency stop at the end of lane '-E0_0' because there is no connection to the next edge (decel=0.00, offset=37.17), time=0.00.
+Error: Answered with error to command 0xa4: Vehicle 'ego' is not known.
