@@ -7,43 +7,34 @@ model scenic.simulators.sumo.model
 
 # In SUMO speed is in meters per second. But we imagine speed in Kilometers
 # per second, so we must convert from KPH to MPS.
-
 kph2mps = 1/3.6
 mps2kph = 3.6
 lanes = [1,2]
 ego_lane = random.choice(lanes)
-npc1_lane = random.choice(lanes)
-ego_dist = 189
+npc1_lane = 2
+ego_dist = Range(150,180)
+npc1_dist = Range(147,148)
 
 ego = Car at 0 @ 0,          # Always start ego at 0 & 0
     with name "ego",         # The ego must be named ego
-    with route ["E2", "E3"], # A route is required
-    with track True,         # Follow the EGO in the GUI
+    with route ["E4", "E5"], # A route is required
+    # with track True,         # Follow the EGO in the GUI
     with color [0,0,255,255],# Set RGBA color to Blue
     with lane ego_lane,
     with distance ego_dist,
-    with speed 0 * kph2mps,
-    with changeSpeed [Range(5,30)*kph2mps, 5]
-    #simulation never ends because ego is stopping
+    with speed Range(30,50) * kph2mps # Set vehicle speed 30-50 kph
+
 npc1 = Car at 0 @ 2, # Other actors should be 2 units away from each other
     with name "npc1",
-    with route ["-E0", "E3"],
+    with route ["-E6", "-E4"],
     with color [255,0,0,255], # Red
-    with distance Range(-100,-10) + ego_dist,
-    with speed Range(10,50) * kph2mps,
-    with laneChange [DiscreteRange(1,2), 0]
+    with lane npc1_lane,
+    with distance npc1_dist,
+    with speed Range(30,50) * kph2mps,
+    with changeSpeed [0*kph2mps, 7]
 
-ped1 = Pedestrian at 0 @ 4,
-    with name "ped1",
-    with route ["-E3","E2"],
-    with color [255,255,0,255], #yellow
-    with departTime 0,
-    with distance 200.35,
-    with egoWaitAtXing True
+
 
 param ego_speed = ego.speed * mps2kph
-param departTime_ped = ped1.departTime
 param npc1_speed = npc1.speed * mps2kph
-param lane_npc1 = npc1.laneChange
 param npc1_distance = npc1.distance
-param ego_changeSpeed = ego.changeSpeed

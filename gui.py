@@ -76,7 +76,7 @@ class ScenicSUMOGui:
                     self.window["run"].update(disabled=False)
                 else:
                     self.window["run"].update(disabled=True)
-            elif event == "run":
+            elif event == "run" or event =="test":
                 self.window["run"].update(disabled=True)
                 try:
                     self.run()
@@ -95,6 +95,13 @@ class ScenicSUMOGui:
     
     def run(self):
         # print(self.config)
+        # self.values = {
+        #     "map-fn" : "map/allnetworksedit.net.xml",
+        #     "scene-fn" : "scenes/2sp1.scenic",
+        #     "out-dir" : "out",
+        #     "n-tests" : 10_000,
+        # }
+        
 
         map_fn = self.values["map-fn"]
         scene_fn = self.values["scene-fn"]
@@ -184,7 +191,8 @@ class ScenicSUMOGui:
             ],
             [
                 sg.Button("Run", key="run", disabled=True), 
-                # sg.Button("Cancel", key="cancel", disabled=True)
+                # sg.Button("Cancel", key="cancel", disabled=True),
+                # sg.Button("Test", key="test")
             ]
         ]
 

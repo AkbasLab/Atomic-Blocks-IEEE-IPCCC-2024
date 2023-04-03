@@ -3,7 +3,7 @@ from scenic.core.distributions import *
 
 model scenic.simulators.sumo.model
 
-"""Uses allnetworks.net.xml"""
+"""Uses allnetworksedit.net.xml"""
 
 # In SUMO speed is in meters per second. But we imagine speed in Kilometers
 # per second, so we must convert from KPH to MPS.

@@ -1,0 +1,143 @@
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL 'C:\Users\ilkek\AppData\Local\Programs\Python\Python38\lib\site-packages\Shapely.libs\geos_c-84d02d5b10aa37e3ab60a885dc5b531b.dll', handle 7ffbc7f40000 at 0x19e9f5a0d90>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL 'C:\Users\ilkek\AppData\Local\Programs\Python\Python38\lib\site-packages\Shapely.libs\geos_c-84d02d5b10aa37e3ab60a885dc5b531b.dll', handle 7ffbc8d00000 at 0x2644e16ed60>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL 'C:\Users\ilkek\AppData\Local\Programs\Python\Python38\lib\site-packages\Shapely.libs\geos_c-84d02d5b10aa37e3ab60a885dc5b531b.dll', handle 7ffbc8d00000 at 0x1b3997ecdf0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 2d4ca30 at 0x7f7f0701efa0>, using it.
+ERROR:root:Exception caught at runtime...
+Traceback (most recent call last):
+  File "gui.py", line 82, in __init__
+    self.run()
+  File "gui.py", line 104, in run
+    simulator = SumoSimulator(map_fn, scene_fn, self.config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 131, in __init__
+    TraCIClient(self.sumo_config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 45, in __init__
+    self.connect()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 102, in connect
+    traci.start(cmd,port=self.config["--remote-port"])
+KeyError: '--remote-port'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 2334a30 at 0x7f04e353cfa0>, using it.
+ERROR:root:Exception caught at runtime...
+Traceback (most recent call last):
+  File "gui.py", line 82, in __init__
+    self.run()
+  File "gui.py", line 104, in run
+    simulator = SumoSimulator(map_fn, scene_fn, self.config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 133, in __init__
+    TraCIClient(self.sumo_config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 45, in __init__
+    self.connect()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 102, in connect
+    traci.start(cmd,port=self.config["--remote-port"])
+KeyError: '--remote-port'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 1c47fe0 at 0x7f2f96078fa0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 35722b0 at 0x7fb6402f0fa0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 3529e10 at 0x7fe2b092afa0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 357b5b0 at 0x7fa22e210fa0>, using it.
+ERROR:root:Exception caught at runtime...
+Traceback (most recent call last):
+  File "gui.py", line 83, in __init__
+    self.run()
+  File "gui.py", line 112, in run
+    simulator = SumoSimulator(map_fn, scene_fn, self.config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 133, in __init__
+    TraCIClient(self.sumo_config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 45, in __init__
+    self.connect()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 102, in connect
+    traci.start(cmd,port=self.config["--remote-port"])
+KeyError: '--remote-port'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 294b980 at 0x7f8069b19fd0>, using it.
+ERROR:root:Exception caught at runtime...
+Traceback (most recent call last):
+  File "gui.py", line 82, in __init__
+    self.run()
+  File "gui.py", line 111, in run
+    simulator = SumoSimulator(map_fn, scene_fn, self.config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 133, in __init__
+    TraCIClient(self.sumo_config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 45, in __init__
+    self.connect()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 102, in connect
+    traci.start(cmd,port=self.config["--remote-port"])
+KeyError: '--remote-port'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 2bd6980 at 0x7f5fd2cfbfd0>, using it.
+ERROR:root:Exception caught at runtime...
+Traceback (most recent call last):
+  File "gui.py", line 82, in __init__
+    self.run()
+  File "gui.py", line 111, in run
+    simulator = SumoSimulator(map_fn, scene_fn, self.config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 135, in __init__
+    TraCIClient(self.sumo_config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 47, in __init__
+    self.connect()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 104, in connect
+    traci.start(cmd,port=self.config["--remote-port"])
+KeyError: '--remote-port'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 2484980 at 0x7f09cbe7efd0>, using it.
+ERROR:root:Exception caught at runtime...
+Traceback (most recent call last):
+  File "gui.py", line 82, in __init__
+    self.run()
+  File "gui.py", line 111, in run
+    simulator = SumoSimulator(map_fn, scene_fn, self.config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 136, in __init__
+    TraCIClient(self.sumo_config)
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 48, in __init__
+    self.connect()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 105, in connect
+    traci.start(cmd,port=self.config["--remote-port"])
+KeyError: '--remote-port'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 23f65e0 at 0x7f8d7bbe6fd0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 23b05e0 at 0x7f0dca80dfd0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 1f405e0 at 0x7feefdc33fd0>, using it.
+ERROR:root:Exception caught at runtime...
+Traceback (most recent call last):
+  File "gui.py", line 82, in __init__
+    self.run()
+  File "gui.py", line 114, in run
+    simulator.createSimulation()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 152, in createSimulation
+    sim = SumoSimulation(
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 209, in __init__
+    self.__runSimulation()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 565, in __runSimulation
+    and (traci.vehicle.getSpeed("ego") == 0) \
+  File "/home/gossq/.local/lib/python3.8/site-packages/traci/_vehicle.py", line 250, in getSpeed
+    return self._getUniversal(tc.VAR_SPEED, vehID)
+  File "/home/gossq/.local/lib/python3.8/site-packages/traci/domain.py", line 147, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+  File "/home/gossq/.local/lib/python3.8/site-packages/traci/domain.py", line 152, in _getCmd
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+  File "/home/gossq/.local/lib/python3.8/site-packages/traci/connection.py", line 225, in _sendCmd
+    return self._sendExact()
+  File "/home/gossq/.local/lib/python3.8/site-packages/traci/connection.py", line 142, in _sendExact
+    raise TraCIException(err, prefix[1], _RESULTS[prefix[2]])
+traci.exceptions.TraCIException: Vehicle 'ego' is not known.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 34db5e0 at 0x7f5666a24fd0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 24715e0 at 0x7f79baca0fd0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 29285e0 at 0x7ff6c6164fd0>, using it.
+ERROR:root:Exception caught at runtime...
+Traceback (most recent call last):
+  File "gui.py", line 82, in __init__
+    self.run()
+  File "gui.py", line 114, in run
+    simulator.createSimulation()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 145, in createSimulation
+    sim = SumoSimulation(
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 202, in __init__
+    self.__runSimulation()
+  File "/home/gossq/.local/lib/python3.8/site-packages/scenic/simulators/sumo/simulator.py", line 590, in __runSimulation
+    traci.simulation.step()
+  File "/home/gossq/.local/lib/python3.8/site-packages/traci/_simulation.py", line 274, in step
+    return self._connection.simulationStep(time)
+  File "/home/gossq/.local/lib/python3.8/site-packages/traci/connection.py", line 363, in simulationStep
+    result = self._sendCmd(tc.CMD_SIMSTEP, None, None, "D", step)
+  File "/home/gossq/.local/lib/python3.8/site-packages/traci/connection.py", line 225, in _sendCmd
+    return self._sendExact()
+  File "/home/gossq/.local/lib/python3.8/site-packages/traci/connection.py", line 135, in _sendExact
+    raise FatalTraCIError("connection closed by SUMO")
+traci.exceptions.FatalTraCIError: connection closed by SUMO
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 212d5e0 at 0x7f9bcb934fd0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 25071f0 at 0x7fc841c23fa0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 37038a0 at 0x7f78fc248fa0>, using it.
