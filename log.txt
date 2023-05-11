@@ -141,3 +141,5 @@ traci.exceptions.FatalTraCIError: connection closed by SUMO
 DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 212d5e0 at 0x7f9bcb934fd0>, using it.
 DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 25071f0 at 0x7fc841c23fa0>, using it.
 DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 37038a0 at 0x7f78fc248fa0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 23878a0 at 0x7feb0548afd0>, using it.
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/gossq/.local/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 2d511f0 at 0x7f62d7e9cfd0>, using it.
