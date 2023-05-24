@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-04-27 08:10:09 by Eclipse SUMO sumo Version 1.15.0
+<!-- generated on 2023-04-27 19:00:23 by Eclipse SUMO GUI Version 1.15.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:/Users/ilkek/Desktop/scenic-sumo-gui3/scenic-sumo-gui/map/2xp5allnetworksedit.net.xml"/>
+        <net-file value="C:/Users/ilkek/Desktop/scenic-sumo-gui3/scenic-sumo-gui/scenes/allnetworksedit.net.xml"/>
     </input>
 
     <time>

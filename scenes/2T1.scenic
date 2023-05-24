@@ -23,7 +23,7 @@ ego_dist = Range(147.3,148.8)
 ego = Car at 0 @ 0,          # Always start ego at 0 & 0
     with name "ego",         # The ego must be named ego
     with route ["-E6", egoR2], # A route is required
-    # with track True,         # Follow the EGO in the GUI
+    with track True,         # Follow the EGO in the GUI
     with color [0,0,255,255],# Set RGBA color to Blue
     with lane ego_lane,
     with distance ego_dist,
@@ -34,8 +34,9 @@ npc1 = Car at 0 @ 2, # Other actors should be 2 units away from each other
     with route ["-E6", egoR2],
     with color [255,0,0,255], # Red
     with lane npc1_lane,
-    with distance Range(-100,-10) + ego_dist,
+    with distance Range(-60,-10) + ego_dist,
     with speed ego_speed,
+    with speedMode 32,
     with changeSpeed [npc1_speedChange, range(0,5)]
 
 npc2 = Car at 0 @ 4,
@@ -47,11 +48,15 @@ npc2 = Car at 0 @ 4,
     with speed Range(30,50) * kph2mps
 
 
-
-param ego_speed = ego.speed * mps2kph
 param ego_lane = ego.lane
+param ego_route = ego.route[1]
+param ego_speed = ego.speed * mps2kph
+param ego_dist = ego.distance
 param npc1_speed = npc1.speed * mps2kph
 param npc1_distance = npc1.distance
+param npc1_speedChange_speed = npc1.changeSpeed[0]
+param npc1_speedChange_time = npc1.changeSpeed[1]
 param npc2_speed = npc2.speed * mps2kph
+param npc2_dist = npc2.distance
 param npc1_lane = npc1.lane
 param npc2_lane = npc2.lane
