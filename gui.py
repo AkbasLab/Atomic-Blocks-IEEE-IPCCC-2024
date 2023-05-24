@@ -160,10 +160,10 @@ class ScenicSUMOGui:
     
     def generate_scores(self):
         # Load params and scores
-        # params_fn = self.values["params-fn"]
-        # scores_fn = self.values["scores-fn"]
-        params_fn = "parameter and scores/PARAM2t120230425231600.tsv"
-        scores_fn = "parameter and scores/SCORE2t120230425231600.tsv"
+        params_fn : str = self.values["params-fn"]
+        scores_fn : str = self.values["scores-fn"]
+        # params_fn = "parameter and scores/PARAM2t120230425231600.tsv"
+        # scores_fn = "parameter and scores/SCORE2t120230425231600.tsv"
         params_df = pd.read_csv(params_fn, sep="\t")        
         scores_df = pd.read_csv(scores_fn, sep="\t")
 
@@ -173,7 +173,7 @@ class ScenicSUMOGui:
                 .drop(columns="ped_ego_wait_at_xing_event", axis=1)
 
         # Parse run id
-        run_id = scores_fn.split("/")[-1].lower()[5:-4]
+        run_id = scores_fn.replace("\\","/").split("/")[-1].lower()[5:-4]
 
         # Stat directory
         run_stat_dir = "%s/%s" % (self.stats_dir, run_id)

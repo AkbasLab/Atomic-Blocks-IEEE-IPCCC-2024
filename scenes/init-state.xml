@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-04-27 19:00:23 by Eclipse SUMO GUI Version 1.15.0
+<!-- generated on 2023-05-24 17:26:48 by Eclipse SUMO sumo Version 1.17.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:/Users/ilkek/Desktop/scenic-sumo-gui3/scenic-sumo-gui/scenes/allnetworksedit.net.xml"/>
+        <net-file value="/home/gossq/git-projects/scenic-sumo-gui/scenes/allnetworksedit.net.xml"/>
     </input>
 
     <time>
@@ -42,7 +42,7 @@
 </configuration>
 -->
 
-<snapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/state_file.xsd" version="1.15.0" time="0.00" type="micro">
+<snapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/state_file.xsd" version="1.17.0" time="0.00" type="micro">
     <delay number="0" begin="0" end="0" depart="0.00" time="0.00"/>
     <tlLogic id="J19" programID="0" phase="0" duration="0"/>
 </snapshot>

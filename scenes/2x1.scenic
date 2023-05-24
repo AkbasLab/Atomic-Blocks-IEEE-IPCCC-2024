@@ -44,6 +44,6 @@ npc2 = Car at 0 @ 4, # Other actors should be 4 units away from each other
     with speed 40 * kph2mps
 
 
-param lane_npc2 = npc2.laneChange
+param lane_npc2 = npc2.lane
 param npc1_distance = npc1.distance
 param npc1_changeSpeed = npc1.changeSpeed
