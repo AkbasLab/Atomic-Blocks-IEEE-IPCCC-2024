@@ -228,19 +228,19 @@ class ScenicSUMOGui:
 
         # Summary of test
         params_df.describe()\
-            .to_csv("%s/params_describe.csv" % run_stat_dir, index=False)
+            .to_csv("%s/params_describe.csv" % run_stat_dir)
         scores_df.describe()\
-            .to_csv("%s/scores_describe.csv" % run_stat_dir, index=False)
+            .to_csv("%s/scores_describe.csv" % run_stat_dir)
         
         tsc_params_df = params_df.iloc[tsc_indices]
         tsc_params_df.to_csv("%s/tsc_params.tsv" % run_stat_dir, sep="\t")
         tsc_params_df.describe()\
-            .to_csv("%s/tsc_params_describe.csv" % run_stat_dir, index=False)
+            .to_csv("%s/tsc_params_describe.csv" % run_stat_dir)
         
         tsc_scores_df = scores_df.iloc[tsc_indices]
         tsc_scores_df.to_csv("%s/tsc_scores.tsv" % run_stat_dir, sep="\t")
         tsc_scores_df.describe()\
-            .to_csv("%s/tsc_scores_describe.csv" % run_stat_dir, index=False)
+            .to_csv("%s/tsc_scores_describe.csv" % run_stat_dir)
 
     
         # Histograms
