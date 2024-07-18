@@ -48,8 +48,7 @@ ped1 = Pedestrian at 0 @ 6,
 
 Traf1 = TrafficLight at 0 @ 8,
     with name "J19",
-    with state ["rrrrrGGGGgrrrrrGGGggrrrrrG","rrrrrGGGGgrrrrrGGGggrrrrrG"],
-#                rrrrrrrrrrgGGGGGrrrrrrrrrG   rrrrrrrrrrgGGGGGrrrrrrrrrG
+    with state ["rrrrrGGGGgrrrrrGGGggrrrrrG","rrrrgGGGGgrrrrrGGGggrrrrrG"],
     with duration [100,50]
 
 

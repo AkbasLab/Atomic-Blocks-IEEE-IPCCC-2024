@@ -1,2 +1,5 @@
 map/init-state.xml
 out/*
+stats/*
+log.txt
+error.txt
