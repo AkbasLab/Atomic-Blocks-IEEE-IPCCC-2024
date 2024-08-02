@@ -1,1 +1,0 @@
-DEBUG:shapely.geos:Found GEOS DLL: <CDLL 'D:\Program Files\Python38\lib\site-packages\Shapely.libs\geos_c-84d02d5b10aa37e3ab60a885dc5b531b.dll', handle 7fffc2030000 at 0x2178a8f1b20>, using it.

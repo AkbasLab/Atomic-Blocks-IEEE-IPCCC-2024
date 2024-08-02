@@ -1,3 +1,0 @@
-Warning: Vehicle 'npc1'; collision with vehicle 'ego', lane='-E12_2', gap=-5.29, time=1.50 stage=move.
-Warning: Vehicle 'npc1' aborts stop.
-Warning: Vehicle 'ego' aborts stop.
